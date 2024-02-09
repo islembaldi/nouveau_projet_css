@@ -1,0 +1,294 @@
+/* page index.html*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; /* Couleur de fond globale */
+}
+
+nav {
+  text-align: center;
+  background-color: #b2139a;
+  padding: 10px 0;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #080808;
+}
+
+/* CSS pour les boutons */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Styles spécifiques pour chaque bouton */
+.about-button {
+  background-color: #1dd881;
+}
+
+.work-button {
+  background-color: #28a745;
+}
+
+.resume-button {
+  background-color: #ffc107;
+}
+
+.contact-button {
+  background-color: #dc3545;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+/* Reste du CSS pour les sections */
+section {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff; /* Arrière-plan des sections */
+  border-radius: 10px; /* Bord arrondi */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  animation: fadeInUp 0.5s ease;
+}
+
+h2 {
+  color: #b10c9e;
+}
+
+h2 {
+  color: #ff00fb;
+}
+
+.work-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.work-gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333; /* Couleur du texte */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #d6e0e3;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #d6e0e3; /* Arrière-plan du champ de texte */
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  background-color: #df19a7;
+  color: #e7eee8;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #8a15bc;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 0;
+  background-color: #df19a7; /* Couleur de fond du pied de page */
+}
+
+footer p {
+  color: #fff; /* Couleur du texte du pied de page */
+}
+
+/* style de page about.html*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+#about {
+  padding: 50px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.image-container img {
+  max-width: 50%;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.image-container img:hover {
+  transform: scale(1.1);
+}
+
+#resume,
+#contact {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f7eac4; /* Arrière-plan des sections */
+  border-radius: 10px; /* Bord arrondi */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+/********************************************************/
+
+/* style de page work.html*/
+
+#work,
+#portfolio {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f0e0ad; /* Arrière-plan des sections */
+  border-radius: 10px; /* Bord arrondi */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+h2 {
+  color: #080808;
+}
+
+p {
+  color: #333;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+/********************************************************/
+
+/* style de page resume.html*/
+
+#resume {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #b5e1b1; /* Arrière-plan des sections */
+  border-radius: 10px; /* Bord arrondi */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+#about {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #b5e1b1; /* Arrière-plan des sections */
+  border-radius: 10px; /* Bord arrondi */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+h2 {
+  color: #007bff;
+}
+
+p {
+  color: #333;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #050505;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #b300a1;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 70px; /* Ajustez la taille de l'icône selon vos besoins */
+  height: 70px;
+  margin-right: 10px; /* Espacement entre le logo et les liens de navigation */
+}
